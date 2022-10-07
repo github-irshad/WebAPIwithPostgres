@@ -129,5 +129,34 @@ namespace PostgresWebApi.Controllers{
 
       return new JsonResult("Deleted Successfully");
     }
+
+    [HttpGet("{id}")]
+    public JsonResult Get(int id)
+    {
+      string query = @"select DepartmentId as DepartmentId, DepartmentName as DepartmentName from Department where DepartmentId = @DepartmentId";
+      DataTable table = new DataTable();
+
+      string sqlDataSource = _configuration.GetConnectionString("EmployeeAppCon");
+
+      NpgsqlDataReader myReader;
+      using(NpgsqlConnection mycon =new NpgsqlConnection(sqlDataSource))
+      {
+        mycon.Open();
+        
+        using(NpgsqlCommand mycommand = new NpgsqlCommand(query,mycon))
+        {
+          mycommand.Parameters.AddWithValue("@DepartmentId",id);
+          
+          myReader = mycommand.ExecuteReader();
+          table.Load(myReader);
+
+          myReader.Close();
+          mycon.Close();
+        }
+      }
+
+
+      return new JsonResult(table);
+    }
   }
 }
