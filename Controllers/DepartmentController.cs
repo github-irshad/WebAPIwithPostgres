@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Npgsql;
 
 namespace PostgresWebApi.Controllers{
-  [Route("")]
+  [Route("[controller]")]
   [ApiController]
   public class DepartmentController:ControllerBase
   {
