@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "o6aO+GLbphkAtZE4WYYbOKDsNJxfIkG61CwR6fdyOC1B5CMtk5uiRMvTJ8qYDYoqQ2FrYRXK0sf5HptRpCSqdA==",
+  "dgSpecHash": "PGQ56LHf4RfD+YIlxOjg/nyYV/dinYJ3L2oaGvzdVuBz5dvjWipw91qaopbBWlYb9chL8rGyhx0K9ao0JmigKw==",
   "success": true,
   "projectFilePath": "C:\\Users\\muhammed.irshad\\Desktop\\PostgresWebApi\\PostgresWebApi.csproj",
   "expectedPackageFiles": [
@@ -11,10 +11,12 @@
     "C:\\Users\\muhammed.irshad\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\muhammed.irshad\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\muhammed.irshad\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
+    "C:\\Users\\muhammed.irshad\\.nuget\\packages\\npgsql\\6.0.7\\npgsql.6.0.7.nupkg.sha512",
     "C:\\Users\\muhammed.irshad\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "C:\\Users\\muhammed.irshad\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
     "C:\\Users\\muhammed.irshad\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
-    "C:\\Users\\muhammed.irshad\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+    "C:\\Users\\muhammed.irshad\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
+    "C:\\Users\\muhammed.irshad\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }

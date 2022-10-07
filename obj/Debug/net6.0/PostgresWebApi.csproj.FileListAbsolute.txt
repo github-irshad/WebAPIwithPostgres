@@ -29,3 +29,4 @@ C:\Users\muhammed.irshad\Desktop\PostgresWebApi\obj\Debug\net6.0\refint\Postgres
 C:\Users\muhammed.irshad\Desktop\PostgresWebApi\obj\Debug\net6.0\PostgresWebApi.pdb
 C:\Users\muhammed.irshad\Desktop\PostgresWebApi\obj\Debug\net6.0\PostgresWebApi.genruntimeconfig.cache
 C:\Users\muhammed.irshad\Desktop\PostgresWebApi\obj\Debug\net6.0\ref\PostgresWebApi.dll
+C:\Users\muhammed.irshad\Desktop\PostgresWebApi\bin\Debug\net6.0\Npgsql.dll
